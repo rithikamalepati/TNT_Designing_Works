@@ -7,53 +7,53 @@ const shopData = {
     'bangles': {
         title: 'Silk Thread Bangles',
         subs: [
-            { name: 'Bridal Set Bangles', code: 'STB1', img: 'images/Silk_thread_bangles/STB_Featured1.png' },
-            { name: 'Plain Thread Wrapped Bangles', code: 'STB2', img: 'images/Silk_thread_bangles/STB_Featured2.png' },
-            { name: 'Premium Bangles', code: 'STB3', img: 'images/Silk_thread_bangles/STB_Featured3.png' }
+            { name: 'Bridal Set Bangles', code: 'STB1', img: 'images/Silk_thread_bangles/STB_Featured1.jpeg' },
+            { name: 'Plain Thread Wrapped Bangles', code: 'STB2', img: 'images/Silk_thread_bangles/STB_Featured2.jpeg' },
+            { name: 'Premium Bangles', code: 'STB3', img: 'images/Silk_thread_bangles/STB_Featured3.jpeg' }
         ]
     },
     'return-gifts': {
         title: 'Return Gifts',
         subs: [
-            { name: 'Bangles (Bulk Packs)', code: 'RG1', img: 'images/Return_gifts/RG_Featured1.png' },
-            { name: 'Thaamboolam Gifts', code: 'RG2', img: 'images/Return_gifts/RG_Featured2.png' }
+            { name: 'Bangles (Bulk Packs)', code: 'RG1', img: 'images/Return_gifts/RG_Featured1.jpeg' },
+            { name: 'Thaamboolam Gifts', code: 'RG2', img: 'images/Return_gifts/RG_Featured2.jpeg' }
         ]
     },
     'saree': {
         title: 'Saree Accessories',
         subs: [
-            { name: 'Saree Pins', code: 'SA1', img: 'images/Saree_Acc/SA_Featured1.png' }, 
-            { name: 'Broch Pins', code: 'SA2', img: 'images/Saree_Acc/SA_Featured2.png' }
+            { name: 'Saree Pins', code: 'SA1', img: 'images/Saree_Acc/SA_Featured1.jpeg' }, 
+            { name: 'Broch Pins', code: 'SA2', img: 'images/Saree_Acc/SA_Featured2.jpeg' }
         ]
     },
     'hair': {
         title: 'Hair Accessories',
-        subs: [{ name: 'Hair Bands', code: 'HA1', img: 'images/Hair_Acc/HA_Featured1.png' },
-                { name: 'Centre Clips', code: 'HA2', img: 'images/Hair_Acc/HA_Featured2.png' },
-                { name: 'Jada Billalu', code: 'HA3', img: 'images/Hair_Acc/HA_Featured3.png' },
-                { name: 'Kids Alligator Clips', code: 'HA4', img:'images/Hair_Acc/HA_Featured4.png' },
-                { name: 'Tic Tac Pins', code: 'HA5', img: 'images/Hair_Acc/HA_Featured5.png' },
-                { name: 'Kids Metal Hair Bands', code: 'HA6', img: 'images/Hair_Acc/HA_Featured6.png' }
+        subs: [{ name: 'Hair Bands', code: 'HA1', img: 'images/Hair_Acc/HA_Featured1.jpeg' },
+                { name: 'Centre Clips', code: 'HA2', img: 'images/Hair_Acc/HA_Featured2.jpeg' },
+                { name: 'Jada Billalu', code: 'HA3', img: 'images/Hair_Acc/HA_Featured3.jpeg' },
+                { name: 'Kids Alligator Clips', code: 'HA4', img:'images/Hair_Acc/HA_Featured4.jpeg' },
+                { name: 'Tic Tac Pins', code: 'HA5', img: 'images/Hair_Acc/HA_Featured5.jpeg' },
+                { name: 'Kids Metal Hair Bands', code: 'HA6', img: 'images/Hair_Acc/HA_Featured6.jpeg' }
             ]
     },
     'earrings': {
         title: 'Earrings',
-        subs: [{ name: 'Stud Earrings', code: 'ER1', img: 'images/Earrings/ER_Featured1.png' }]
+        subs: [{ name: 'Stud Earrings', code: 'ER1', img: 'images/Earrings/ER_Featured1.jpeg' }]
     },
     'wedding': {
         title: 'Wedding Decorations',
         subs: [
-            { name: 'Kobbari Kudikalu', code: 'WD1', img: 'images/Wedding_decor/WD_Featured1.png' },
-            { name: 'Garika Muntalu', code: 'WD2', img: 'images/Wedding_decor/WD_Featured2.png' }
+            { name: 'Kobbari Kudikalu', code: 'WD1', img: 'images/Wedding_decor/WD_Featured1.jpeg' },
+            { name: 'Garika Muntalu', code: 'WD2', img: 'images/Wedding_decor/WD_Featured2.jpeg' }
         ]
     },
     'personalized': {
         title: 'Personalized Gifts',
         subs: [
-            { name: 'Birthday', code: 'PG1', img: 'images/Personalized_gifts/PG_Featured1.png' }, 
-            { name: 'Anniversary', code: 'PG2', img: 'images/Personalized_gifts/PG_Featured2.png' },
-            { name: 'Baby Shower', code: 'PG3', img: 'images/Personalized_gifts/PG_Featured3.png' }, 
-            { name: 'Wedding', code: 'PG4', img: 'images/Personalized_gifts/PG_Featured4.png' }
+            { name: 'Birthday', code: 'PG1', img: 'images/Personalized_gifts/PG_Featured1.jpeg' }, 
+            { name: 'Anniversary', code: 'PG2', img: 'images/Personalized_gifts/PG_Featured2.jpeg' },
+            { name: 'Baby Shower', code: 'PG3', img: 'images/Personalized_gifts/PG_Featured3.jpeg' }, 
+            { name: 'Wedding', code: 'PG4', img: 'images/Personalized_gifts/PG_Featured4.jpeg' }
         ]
     }
 };
