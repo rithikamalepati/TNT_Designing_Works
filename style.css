@@ -412,7 +412,7 @@ body {
 
 .cat-card { 
     flex: 0 0 auto; 
-    width: 220px; 
+    width: 280px; 
     text-align: center; 
     cursor: pointer; 
     transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
@@ -420,8 +420,8 @@ body {
 }
 
 .cat-img {
-    width: 180px;
-    height: 180px;
+    width: 240px;
+    height: 240px;
     margin: 0 auto 15px;
     border-radius: 50%; 
     background-size: cover;
@@ -435,7 +435,7 @@ body {
     display: block;
     font-weight: 700;
     color: var(--dark);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
@@ -765,6 +765,20 @@ body {
 }
 .add-btn:hover { background: #b8952e; }
 
+.qty-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    line-height: 1;
+}
+.qty-minus { background: #f0f0f0; border: 1px solid #ddd; color: #333; }
+.qty-plus  { background: var(--gold); color: white; }
+.qty-num   { font-size: 1rem; font-weight: 600; margin: 0 8px; }
+
 /* --- CART MODAL --- */
 .cart-modal { 
     position: fixed; top: 0; right: -100%; width: 400px; height: 100%; 
@@ -827,6 +841,62 @@ body {
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* --- FLOATING CART BUTTON --- */
+.cart-float {
+    position: fixed;
+    bottom: 115px;          /* sits above the 65px WhatsApp + 35px bottom gap + some spacing */
+    right: 35px;
+    width: 55px;
+    height: 55px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.45);
+    transition: 0.3s ease;
+}
+
+.cart-float:hover {
+    transform: scale(1.12) translateY(-3px);
+    background: #c9a227;
+    box-shadow: 0 10px 28px rgba(212, 175, 55, 0.55);
+}
+
+/* Badge showing item count */
+.cart-float-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #e63946;
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    line-height: 1;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .cart-float {
+        bottom: 90px;
+        right: 20px;
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
 }
 
 /* --- WHATSAPP FLOAT --- */
@@ -1163,9 +1233,9 @@ img {
 
     /* ── CATEGORIES ── */
     .scroll-wrapper { padding: 0 30px; }
-    .cat-card { width: 160px; padding: 10px; }
-    .cat-img { width: 130px; height: 130px; border-width: 3px; }
-    .cat-card span { font-size: 0.95rem; margin-top: 8px; }
+    .cat-card { width: 240px; padding: 10px; }
+    .cat-img { width: 200px; height: 200px; border-width: 3px; }
+    .cat-card span { font-size: 1.15rem; margin-top: 8px; }
 
     /* ── SUB-CATEGORIES ── */
     .sub-card-container { grid-template-columns: repeat(2, 1fr) !important; gap: 15px; }
@@ -1216,9 +1286,9 @@ img {
     .story-image, .our-journey img { max-width: 300px !important; }
     .value-item, .stat-box { flex: 1 1 100% !important; }
     .stat-number { font-size: 1.8rem; }
-    .cat-card { width: 140px; }
-    .cat-img { width: 110px; height: 110px; }
-    .cat-card span { font-size: 0.85rem; }
+    .cat-card { width: 210px; }
+    .cat-img { width: 175px; height: 175px; }
+    .cat-card span { font-size: 1.05rem; }
     .scroll-wrapper { padding: 0 25px; }
     .sub-card-container { grid-template-columns: 1fr !important; }
     .sub-card-img { height: 200px; }
@@ -1238,8 +1308,8 @@ img {
     .hero-overlay h1 { font-size: 1.5rem !important; }
     .btn-primary, .btn-secondary { padding: 12px 18px !important; font-size: 0.85rem !important; }
     .section-title { font-size: 1.3rem !important; }
-    .cat-card { width: 125px; }
-    .cat-img { width: 95px; height: 95px; }
+    .cat-card { width: 185px; }
+    .cat-img { width: 155px; height: 155px; }
     .story-title { font-size: 1.5rem; }
     .stat-number { font-size: 1.6rem; }
     .logo { font-size: 1.15rem; }

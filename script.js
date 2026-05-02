@@ -207,6 +207,8 @@ function saveAndRefresh() {
     localStorage.setItem('tnt_cart', JSON.stringify(cart));
     const badge = document.getElementById('cart-count');
     if (badge) badge.innerText = cart.reduce((s, i) => s + i.quantity, 0);
+    const floatBadge = document.getElementById('cart-float-badge');
+    if (floatBadge) floatBadge.innerText = cart.reduce((s, i) => s + i.quantity, 0);
     renderCart();
 }
 
@@ -245,15 +247,14 @@ function renderCart() {
         total += (item.price * item.quantity);
         list.innerHTML += `
             <li style="display:flex; gap:10px; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px; list-style:none;">
-                <img src="${item.img}" width="50" height="50" style="object-fit:cover; border-radius:5px;">
+                <img src="${item.img}" width="100" height="100" style="object-fit:cover; border-radius:5px;">
                 <div style="flex:1">
-                    <h6 style="margin:0;">${item.name}</h6>
+                    <h6 style="margin:0; font-size:1rem; font-weight:700;">${item.name}</h6>
                     <small>Size: ${item.size}</small><br>
                     <div style="margin-top:5px;">
-                        <button onclick="updateQuantity('${item.cartId}', -1)">-</button> 
-                        <span>${item.quantity}</span> 
-                        <button onclick="updateQuantity('${item.cartId}', 1)">+</button>
-                    </div>
+                        <button onclick="updateQuantity('${item.cartId}', -1)" class="qty-btn qty-minus">−</button>
+                        <span class="qty-num">${item.quantity}</span>
+                        <button onclick="updateQuantity('${item.cartId}', 1)" class="qty-btn qty-plus">+</button>
                 </div>
                 <div style="text-align:right">
                     ₹${(item.price * item.quantity).toLocaleString('en-IN')}<br>
