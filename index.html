@@ -51,15 +51,15 @@
             <div class="story-top-row">
                 <div class="story-content">
                     <h2 class="story-title">Our Crafting Story</h2>
-            <p>
-                Welcome to <strong>TNT Designing Work</strong>! What started as a passion for creating unique, 
-                handcrafted pieces has grown into a dedicated space for customized gifts and decor. 
-                We believe that every celebration deserves a touch of personal magic.
-            </p>
-            <p>
-                From intricate <strong>Silk Thread Bangles</strong> to grand <strong>Wedding Decor</strong>, 
-                each item is crafted with love and precision to match your specific requirements. 
-            </p>
+                    <p>
+                        Welcome to <strong>TNT Designing Work</strong>! What started as a passion for creating unique,
+                        handcrafted pieces has grown into a dedicated space for customized gifts and decor.
+                        We believe that every celebration deserves a touch of personal magic.
+                    </p>
+                    <p>
+                        From intricate <strong>Silk Thread Bangles</strong> to grand <strong>Wedding Decor</strong>,
+                        each item is crafted with love and precision to match your specific requirements.
+                    </p>
                 </div>
                 <div class="story-image">
                     <img src="./images/Hero_section/our_story_featured.jpeg" alt="TNT Handcrafted Work">
@@ -78,7 +78,7 @@
 
     <section class="category-section" id="browse">
         <h2 class="section-title">Explore Our Collection</h2>
-        
+
         <div class="scroll-wrapper">
             <button class="scroll-btn left" onclick="scrollCat(-1)">❮</button>
             <div class="category-container" id="category-scroll">
@@ -102,6 +102,10 @@
                     <div class="cat-img" style="background-image: url('./images/Categories/earrings.jpeg');"></div>
                     <span>Earrings</span>
                 </div>
+                <div class="cat-card reveal" onclick="showSub('raw')">
+                    <div class="cat-img" style="background-image: url('./images/Categories/raw_materials.jpeg');"></div>
+                    <span>Raw Materials</span>
+                </div>
                 <div class="cat-card reveal" onclick="showSub('wedding')">
                     <div class="cat-img" style="background-image: url('./images/Categories/wedding_decor.jpeg');"></div>
                     <span>Wedding Decor</span>
@@ -123,28 +127,27 @@
     </section>
 
     <section class="testimonials-section">
-    <h2 class="section-title">What Our Customers Say</h2>
-    
-    <div class="testimonial-wrapper">
-        <div class="testimonial-container" id="testimonial-slider">
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Beautiful!! Thank u so much for making..😍</p><h4 class="client-name">- Lakshmi</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Beautiful🥰</p><h4 class="client-name">- Akshaya</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Thank u!! I liked them so much!!❤️</p><h4 class="client-name">- Sneha</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">So Good😍</p><h4 class="client-name">- Ambika</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Bangles are so good🥰🥰.. Thank u so much dear.. I like them</p><h4 class="client-name">- Lalitha</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">I have recieved the parcel.. They are so good thank u!!❤️</p><h4 class="client-name">- Karunya</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The bangles turned out exactly how I imagined! The finishing and color matching were just perfect. Thank you so much!❤️❤️</p><h4 class="client-name">- Ananya Reddy</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">I ordered return gifts for my sister's wedding and everyone loved them. Beautiful work and neat packaging😍!</p><h4 class="client-name">- Priya</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">So elegant and unique❤️! The customization was done perfectly as per my request. Highly recommend!</p><h4 class="client-name">- Sneha</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The quality is amazing and the designs are so creative. Got so many compliments!</p><h4 class="client-name">- Kavya</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Thank you for making my special day even more beautiful with your decorations❤️. Everything looked stunning!</p><h4 class="client-name">- Megha</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Loved the attention to detail🥰. The product looked even better than the pictures!</p><h4 class="client-name">- Pooja</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Super happy with my purchase! Delivery was quick and the work was very neat🥰.</p><h4 class="client-name">- Lakshmi Devi</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The personalized gift was so thoughtful and beautifully made. Will definitely order again🥰❤️!</p><h4 class="client-name">- Ritika</h4></div>
-            <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The colors, the design, everything was just perfect. Thank you for such lovely work🥰❤️!</p><h4 class="client-name">- Aishwarya</h4></div>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-container" id="testimonial-slider">
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Beautiful!! Thank u so much for making..😍</p><h4 class="client-name">- Lakshmi</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Beautiful🥰</p><h4 class="client-name">- Akshaya</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Thank u!! I liked them so much!!❤️</p><h4 class="client-name">- Sneha</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">So Good😍</p><h4 class="client-name">- Ambika</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Bangles are so good🥰🥰.. Thank u so much dear.. I like them</p><h4 class="client-name">- Lalitha</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">I have recieved the parcel.. They are so good thank u!!❤️</p><h4 class="client-name">- Karunya</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The bangles turned out exactly how I imagined! The finishing and color matching were just perfect. Thank you so much!❤️❤️</p><h4 class="client-name">- Ananya Reddy</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">I ordered return gifts for my sister's wedding and everyone loved them. Beautiful work and neat packaging😍!</p><h4 class="client-name">- Priya</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">So elegant and unique❤️! The customization was done perfectly as per my request. Highly recommend!</p><h4 class="client-name">- Sneha</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The quality is amazing and the designs are so creative. Got so many compliments!</p><h4 class="client-name">- Kavya</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Thank you for making my special day even more beautiful with your decorations❤️. Everything looked stunning!</p><h4 class="client-name">- Megha</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Loved the attention to detail🥰. The product looked even better than the pictures!</p><h4 class="client-name">- Pooja</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">Super happy with my purchase! Delivery was quick and the work was very neat🥰.</p><h4 class="client-name">- Lakshmi Devi</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The personalized gift was so thoughtful and beautifully made. Will definitely order again🥰❤️!</p><h4 class="client-name">- Ritika</h4></div>
+                <div class="testimonial-card"><div class="quote-icon-top">"</div><p class="review-text">The colors, the design, everything was just perfect. Thank you for such lovely work🥰❤️!</p><h4 class="client-name">- Aishwarya</h4></div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <footer class="site-footer">
         <div class="footer-container">
@@ -164,7 +167,7 @@
                 <h3>Contact Me</h3>
                 <form id="contact-form">
                     <input type="text" name="from_name" placeholder="Your Name" required>
-                    <input type="email" name="user_email" placeholder="Your Email" required>        
+                    <input type="email" name="user_email" placeholder="Your Email" required>
                     <textarea name="message" placeholder="Tell us about your requirements..." rows="3" required></textarea>
                     <button type="submit" class="send-btn">SEND MESSAGE</button>
                 </form>
@@ -172,11 +175,13 @@
         </div>
         <div class="footer-bottom">
             <p>© 2026 TNT Designing Work | Crafted with Love ✨</p>
-            <p>Designed & Developed by 
-            <a href="https://rithika-malepati-portfolio.lovable.app/" target="_blank"> Rithika Malepati</a> | All Rights Reserved
+            <p>Designed & Developed by
+                <a href="https://rithika-malepati-portfolio.lovable.app/" target="_blank"> Rithika Malepati</a> | All Rights Reserved
             </p>
+        </div>
     </footer>
 
+    <!-- CART MODAL -->
     <div id="cart-modal" class="cart-modal">
         <div class="cart-header">
             <h3>Your Selection</h3>
@@ -191,12 +196,27 @@
         </div>
     </div>
 
-    <!-- FLOATING CART BUTTON -->
+    <!-- ── FLOATING BUTTONS STACK (bottom-right) ── -->
+
+    <!-- 1. Browse Categories button (topmost) — NEW -->
+    <a href="#browse" class="browse-float" title="Browse Categories" onclick="browseScroll(event)">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7" rx="1"/>
+            <rect x="14" y="3" width="7" height="7" rx="1"/>
+            <rect x="3" y="14" width="7" height="7" rx="1"/>
+            <rect x="14" y="14" width="7" height="7" rx="1"/>
+        </svg>
+        <span class="browse-float-label">Categories</span>
+    </a>
+
+    <!-- 2. Floating Cart button -->
     <div class="cart-float" onclick="toggleCart()">
         🛒
         <span class="cart-float-badge" id="cart-float-badge">0</span>
     </div>
 
+    <!-- 3. WhatsApp float (bottommost) -->
     <a href="https://wa.me/918331059946" class="whatsapp-float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
