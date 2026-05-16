@@ -12,7 +12,8 @@ const shopData = {
         subs: [
             { name: 'Bridal Set Bangles',          code: 'STB1', img: 'images/Silk_thread_bangles/STB_Featured1.jpeg' },
             { name: 'Plain Thread Wrapped Bangles', code: 'STB2', img: 'images/Silk_thread_bangles/STB_Featured2.jpeg' },
-            { name: 'Premium Bangles',              code: 'STB3', img: 'images/Silk_thread_bangles/STB_Featured3.jpeg' }
+            { name: 'Premium Bangles',              code: 'STB3', img: 'images/Silk_thread_bangles/STB_Featured3.jpeg' },
+            { name: 'Kada Bangles',              code: 'STB4', img: 'images/Silk_thread_bangles/STB_Featured4.jpeg' }
         ]
     },
     'return-gifts': {
@@ -129,15 +130,15 @@ const shopData = {
             {
                 name: 'Hair Acc, Saree Pins & MDFs', code: 'HP', img: 'images/Raw_Materials/RM_Featured_HP.jpeg',
                 level4: [
-                    { name: 'Hair Accessories & Saree Pins', tag: 'HP1', img: 'images/Raw_Materials/HairSaree/HP_HairSareePins.jpeg' },
-                    { name: 'MDFs',                          tag: 'HP2', img: 'images/Raw_Materials/HairSaree/HP_MDFs.jpeg'          }
+                    { name: 'Hair Accessories & Saree Pins', tag: 'HP1', img: 'images/Raw_Materials/HP_HairSareePins.jpeg' },
+                    { name: 'MDFs',                          tag: 'HP2', img: 'images/Raw_Materials/HP_MDFs.jpeg'          }
                 ]
             },
             {
                 name: 'Charms, Chains & Coins', code: 'CC', img: 'images/Raw_Materials/RM_Featured_CC.jpeg',
                 level4: [
-                    { name: 'Charms & Coins', tag: 'CC1', img: 'images/Raw_Materials/Charms/CC_CharmsCoins.jpeg' },
-                    { name: 'Chains',         tag: 'CC2', img: 'images/Raw_Materials/Charms/CC_Chains.jpeg'      }
+                    { name: 'Charms & Coins', tag: 'CC1', img: 'images/Raw_Materials/CC_CharmsCoins.jpeg' },
+                    { name: 'Chains',         tag: 'CC2', img: 'images/Raw_Materials/CC_Chains.jpeg'      }
                 ]
             },
             { name: 'Packing Material', code: 'PM', img: 'images/Raw_Materials/RM_Featured_PM.jpeg', level4: [] }
