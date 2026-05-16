@@ -124,7 +124,8 @@ const shopData = {
                 level4: [
                     { name: 'Regular',     tag: 'SQ1', img: 'images/Raw_Materials/Sequins/SQ_Regular.jpeg'     },
                     { name: 'Multicolour', tag: 'SQ2', img: 'images/Raw_Materials/Sequins/SQ_Multicolour.jpeg' },
-                    { name: 'Pastels',     tag: 'SQ3', img: 'images/Raw_Materials/Sequins/SQ_Pastels.jpeg'     }
+                    { name: 'Pastels',     tag: 'SQ3', img: 'images/Raw_Materials/Sequins/SQ_Pastels.jpeg'     },
+                    { name: 'Transparent', tag: 'SQ4', img: 'images/Raw_Materials/Sequins/SQ_Transparent.jpeg'     }
                 ]
             },
             {
